@@ -18,7 +18,7 @@ chrome_options.add_argument("--window-size=1920x1080")
 
 # Webdriver initialization
 browser = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
-web_url = 'https://www.pep-cloud.com/rolesec/pepspa/#login'
+web_url = 'https://www.site.com/rolesec/site/#login'
 browser.get(web_url)
 print("working") #debugging
 
