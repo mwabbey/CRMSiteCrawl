@@ -118,5 +118,4 @@ for each in cname:
         print (each.find('span', class_='eBidActClientName').contents[0])
     except:
         print ("none")
-test for git
 '''
